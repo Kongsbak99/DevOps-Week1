@@ -34,6 +34,6 @@ jobs:
       working-directory: ./web
       run: npm test
     - name: deploy
-      uses: Kongsbak99/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: web/build
