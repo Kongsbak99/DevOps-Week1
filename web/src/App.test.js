@@ -14,3 +14,8 @@ test('has login button', () => {
 });
 
 
+tes('has username field', () => {
+  render (<App />);
+  let usernameField = screen.getByLabelText("username");
+  expect(usernameField).toHaveAttribute("placeholder","indtast brugernavn")
+});
