@@ -18,7 +18,12 @@ function App() {
             Learn React
           </a>
           <button>Login</button>
-            <a>link</a>
+            <a
+                className="App-link"
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer">
+                link</a>
         </header>
       </div>
   );
