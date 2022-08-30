@@ -13,9 +13,10 @@ test('has login button', () => {
   expect(button).toHaveTextContent("Login");
 });
 
-
+/*
 test('has username field', () => {
   render (<App />);
   let usernameField = screen.getByLabelText("username");
   expect(usernameField).toHaveAttribute("placeholder","indtast brugernavn")
 });
+ */
